@@ -1,0 +1,26 @@
+footer{
+   height: 300px;
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs{
+        display: flex;
+        input{
+            height: 30px;
+        }
+        button{
+            border: none;
+            background-color: rgb(0, 102, 255);
+            width: 100px;
+            color: white;
+           
+        }
+    }
+    h3{
+        padding-top: 1rem;
+    }
+    p{
+        padding-top: 1rem;
+    }
+}

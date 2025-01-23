@@ -1,0 +1,142 @@
+.sec1{
+    background-image: url('https://preview.colorlib.com/theme/dealers/images/new/person_transparent.png');
+    background-repeat: no-repeat;
+    // background-size: cover;
+    background-size: contain;
+    height: 900px;
+    margin-left: 800px;
+.text{
+    display: flex;
+    flex-direction: column;
+   margin-left: -500px;
+   h1{
+    margin-top: 300px;
+    font-size: 60px;
+   }
+   .btns{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+   
+    .btn1{
+        width: 100px;
+        height: 40px;
+        background-color: #fff;
+        border:  1px solid blue;
+        color: blue;
+        cursor: pointer;
+        &:hover{
+            background-color: rgb(0, 89, 255);
+            color: white;
+        }
+
+    }
+    .btn2{
+        width: 100px;
+        background-color: rgb(0, 89, 255);
+        border: none;
+        color: white;
+        cursor: pointer;
+        &:hover{
+            background-color: white;
+            color: blue;
+            border: 1px solid blue;
+        }
+    }
+   }
+}
+ 
+    
+}
+.sec2{
+    margin-top: 100px;
+}
+
+.sec3{
+    margin-top: 1rem;
+    background-image: url('https://preview.colorlib.com/theme/dealers/images/model_woman_1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    .text{
+       display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 500px;
+      p{
+        margin-top: 300px;
+        font-size: 18px;
+      }
+      h1{
+        font-size: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      button{
+        margin-top: 1rem;
+        width: 120px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+     
+    }
+}
+.sec4{
+  margin-top: 20px;
+}
+
+.sec5{
+    margin-top: 2rem;
+  background-image: url('https://preview.colorlib.com/theme/dealers/images/model_5.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  margin-left: 200px;
+  .text{
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 500px;
+      p{
+        margin-top: 300px;
+        font-size: 18px;
+      }
+      h1{
+        font-size: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      button{
+        margin-top: 1rem;
+        width: 120px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+  }
+}
+
+@media only screen and (max-width : 760px){
+  body{
+    max-width: 1200px;
+    .sec1{
+      width: 700px;
+    }
+    .sec3{
+      width: 700px;
+      .text{
+        margin-right: 0;
+      }
+    }
+    .sec4{
+      max-width: 760px;
+     .cols{
+      width: 60%;
+     }
+    }
+  }
+  
+}

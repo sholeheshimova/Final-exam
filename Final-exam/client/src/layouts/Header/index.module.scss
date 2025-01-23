@@ -1,0 +1,29 @@
+header{
+    background-color: rgb(231, 229, 229);
+    padding: 1.5rem 0;
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        nav{
+            ul{
+                display: flex;
+                list-style: none;
+                gap: 2rem;
+                &:hover{
+                    color: blue;
+                }
+                li{
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 1.5rem;
+                        &:hover{
+                            color: rgb(30, 30, 240);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
